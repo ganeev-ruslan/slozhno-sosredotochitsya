@@ -5,8 +5,41 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  
+  --no_focus_color: var(--pink_color, #DB00FF);
+  --text_color: var(--text_color_on_page, #F1B2CE);
+  --block_with_paragraph:var(--red_color, #FF0070);
+  --block_paragraph: var(--red_color, #FF0070);
+  --text-color: var(--color-pink-2, #f1b2ce);
+  --link_shadow_color: var(--red_color, #FF0070);
+  --theme-color-button: var(--red_color,  #FF0070);
+  --theme-color-button_hover: var(--color_link, #ff007066);
+  --text_color_visible: var(--color_visible, #F1B2CE);
+  --page-background-color: var(--black_color, #000028);
+  --background-image: url("../images/cover-image-dark.png");
+  --corner-color: var(--red_color, #FF0070);
+  --rec-decoration: visible;
 }
+
+
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text_color: var(--text_color_on_page, #F1B2CE);
+    --no_focus_color: var(--pink_color, #DB00FF);
+    --block_with_paragraph:var(--red_color, #FF0070);
+    --block_paragraph: var(--red_color, #FF0070);
+    --link_shadow_color: var(--red_color, #FF0070);
+    --theme-color-button: var(--red_color,  #FF0070);
+    --theme-color-button_hover: var(--color_link, #ff007066);
+    --text_color_visible: var(--color_visible, #F1B2CE);
+    --corner-color: var(--red_color, #FF0070);
+    --page-background-color: var(--color-black-1, #000028);
+    --background-image: url("../images/cover-image-dark.png");
+    --rec-decoration: visible;
+  }
+}
+
+
