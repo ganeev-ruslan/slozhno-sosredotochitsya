@@ -5,44 +5,33 @@
 */
 
 .page.theme_light {
-  
   --text_color: var(--black-color2, #353430);
-  --block_with_paragraph:var(--pink_color2, #FF8DCB);
+  --block_with_paragraph: var(--pink_color2, #ff8dcb);
   --block_paragraph: var(--black-color2, #353430);
-  --no_focus_color: var(--pink_color3, #FFC2E6);
-  --link_shadow_color: var(--pink_color2, #FF8DCB);
+  --no_focus_color: var(--pink_color3, #ffc2e6);
+  --link_shadow_color: var(--pink_color2, #ff8dcb);
   --theme-color-button: var(--black-color2, #353430);
   --theme-color-button_hover: var(--black-color3, #32312d66);
   --text_color_visible: var(--black-color2, #353430);
-  --page-background-color: var(--pink_color4, #FFF1F7);
+  --page-background-color: var(--pink_color4, #fff1f7);
   --background-image: url("../images/cover-image-light.png");
   --corner-color: var(--black-color2, #353430);
   --rec-decoration: hidden;
 }
 
-
-
-
-
-
 @media (prefers-color-scheme: light) {
-  
-
-
-  
   :root {
     --text_color: var(--black-color2, #353430);
-    --block_with_paragraph:var(--pink_color2, #FF8DCB);
+    --block_with_paragraph: var(--pink_color2, #ff8dcb);
     --no_focus_color: var(--no_focus_color, #ffc2e6);
     --block_paragraph: var(--black-color2, #353430);
-    --link_shadow_color: var(--pink_color2, #FF8DCB);
+    --link_shadow_color: var(--pink_color2, #ff8dcb);
     --theme-color-button: var(--black-color2, #353430);
     --theme-color-button_hover: var(--black-color3, #32312d66);
     --text_color_visible: var(--black-color2, #353430);
     --corner-color: var(--black-color2, #353430);
-    --page-background-color: var(--pink_color4, #FFF1F7);
+    --page-background-color: var(--pink_color4, #fff1f7);
     --page-background-image: url("../images/cover-image-light.png");
     --rec-decoration: hidden;
   }
-
 }
