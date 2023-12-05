@@ -3,38 +3,30 @@
   и их переопределение под различные устройства
 */
 :root {
-  --red_color: #FF0070;
-  --pink_color: #DB00FF;
-  --pink_color2:#FF8DCB;
-  --pink_color3:#FFC2E6;
-  --pink_color4:#FFF1F7;
-  --text_color_on_page: #F1B2CE;
-  --color_visible:#F1B2CE;
-  --black_color:#000028;
+  --red_color: #ff0070;
+  --pink_color: #db00ff;
+  --pink_color2: #ff8dcb;
+  --pink_color3: #ffc2e6;
+  --pink_color4: #fff1f7;
+  --text_color_on_page: #f1b2ce;
+  --color_visible: #f1b2ce;
+  --black_color: #000028;
   --black-color2: #353430;
-  --black-color3:#32312d66;
+  --black-color3: #32312d66;
   --color_link: #ff007066;
   --page-font-family: "IBM Plex Mono";
   --background-image: url(../images/cover-image.png);
   --page-background-color: var(--black_color, #000028);
 
-
-  --no_focus_color:var(--pink_color, #DB00FF);
-  --text_color: var(--text_color_on_page, #F1B2CE);
-  --block_with_paragraph:var(--red_color, #FF0070);
-  --block_paragraph: var(--red_color, #FF0070);
-  --link_shadow_color: var(--red_color, #FF0070);
-  --theme-color-button: var(--red_color,  #FF0070);
-  --corner-color: var(--red_color, #FF0070);
+  --no_focus_color: var(--pink_color, #db00ff);
+  --text_color: var(--text_color_on_page, #f1b2ce);
+  --block_with_paragraph: var(--red_color, #ff0070);
+  --block_paragraph: var(--red_color, #ff0070);
+  --link_shadow_color: var(--red_color, #ff0070);
+  --theme-color-button: var(--red_color, #ff0070);
+  --corner-color: var(--red_color, #ff0070);
   --theme-color-button_hover: var(--color_link, #ff007066);
-  --text_color_visible: var(--color_visible, #F1B2CE);
+  --text_color_visible: var(--color_visible, #f1b2ce);
 
-  
-  
   --rec-decoration-visibility: visible;
-
-
 }
-
-
-
