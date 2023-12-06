@@ -5,33 +5,27 @@
 */
 
 .page.theme_dark {
+  --text_color: var(--pink_color5, #f1b2ce);
   --no_focus_color: var(--pink_color, #db00ff);
-  --text_color: var(--text_color_on_page, #f1b2ce);
-  --block_with_paragraph: var(--red_color, #ff0070);
-  --block_paragraph: var(--red_color, #ff0070);
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --link_shadow_color: var(--red_color, #ff0070);
-  --theme-color-button: var(--red_color, #ff0070);
+  --header_color: var(--red_color, #ff0070);
+  --block_color: var(--red_color, #ff0070);
+  --block_title_color: var(--red_color, #ff0070);
+  --pages-background-color: var(--black_color, #000028);
+  --basic__color: var(--black_color, #000028);
   --theme-color-button_hover: var(--color_link, #ff007066);
-  --text_color_visible: var(--color_visible, #f1b2ce);
-  --page-background-color: var(--black_color, #000028);
   --background-image: url("../images/cover-image-dark.png");
-  --corner-color: var(--red_color, #ff0070);
   --rec-decoration: visible;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text_color: var(--text_color_on_page, #f1b2ce);
+    --text_color: var(--pink_color5, #f1b2ce);
     --no_focus_color: var(--pink_color, #db00ff);
-    --block_with_paragraph: var(--red_color, #ff0070);
-    --block_paragraph: var(--red_color, #ff0070);
-    --link_shadow_color: var(--red_color, #ff0070);
-    --theme-color-button: var(--red_color, #ff0070);
+    --header_color: var(--red_color, #ff0070);
+    --block_color: var(--red_color, #ff0070);
+    --pages-background-color: var(--black_color, #000028);
+    --basic__color: var(--black_color, #000028);
     --theme-color-button_hover: var(--color_link, #ff007066);
-    --text_color_visible: var(--color_visible, #f1b2ce);
-    --corner-color: var(--red_color, #ff0070);
-    --page-background-color: var(--color-black-1, #000028);
     --background-image: url("../images/cover-image-dark.png");
     --rec-decoration: visible;
   }
