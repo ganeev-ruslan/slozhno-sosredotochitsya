@@ -29,7 +29,7 @@
 .header {
   align-items: start;
   height: 100vh;
-  min-height: 100px;
+  min-height: 668px;
 }
 
 .block_grid {
@@ -259,7 +259,7 @@
 .footer {
   place-items: center;
   height: 100vh;
-  min-height: 100px;
+  min-height: 667px;
 }
 
 .second_block {
