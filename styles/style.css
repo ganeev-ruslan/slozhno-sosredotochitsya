@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-color: var(--black_color, #000028);
+  background-color: var(--pages-background-color, #000028);
   background-image: var(--background-image, url("../images/cover-image.png"));
   font-family: var(--page-font-family, "IBM Plex mono", courier);
   font-size: 18px;
@@ -69,21 +69,21 @@
 }
 
 .decorated-zone::before {
-  border-inline-end: 1px solid var(--corner-color, #ff0070);
-  border-block-start: 1px solid var(--corner-color, #ff0070);
+  border-inline-end: 1px solid var(--header_color, #ff0070);
+  border-block-start: 1px solid var(--header_color, #ff0070);
   inset-inline-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   inset-block-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 .decorated-zone::after {
-  border-inline-start: 1px solid var(--corner-color, #ff0070);
-  border-block-end: 1px solid var(--corner-color, #ff0070);
+  border-inline-start: 1px solid var(--header_color, #ff0070);
+  border-block-end: 1px solid var(--header_color, #ff0070);
   inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
 }
 
 .header__theme-menu-button {
-  color: var(--theme-color-button, #ff0070);
+  color: var(--header_color, #ff0070);
   text-align: center;
   line-height: 18px;
   padding: 2px 12px;
@@ -98,7 +98,7 @@
 }
 
 .header__theme-menu-button_active {
-  border-color: var(--theme-color-button, #ff0070);
+  border-color: var(--header_color, #ff0070);
   pointer-events: none;
   cursor: default;
 }
@@ -108,7 +108,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--theme-color-button, #ff0070);
+  border-bottom: 1px solid var(--header_color, #ff0070);
 }
 
 .paragraph_title_block {
@@ -118,11 +118,11 @@
 .paragraph_title {
   margin-block: 55px;
   max-width: 491px;
-  color: var(--black_color);
+  color: var(--basic__color, #000028);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  background: var(--block_with_paragraph, #ff0070);
+  background: var(--block_color, #ff0070);
 }
 
 .rec-decoration {
@@ -144,8 +144,8 @@
 .circle {
   inline-size: 9px;
   block-size: 9px;
-  background-color: var(--red_color);
-  box-shadow: 0 0 2px 2px var(--red_color);
+  background-color: var(--block_color);
+  box-shadow: 0 0 2px 2px var(--block_color);
   border-radius: 50%;
 }
 
@@ -155,7 +155,7 @@
 }
 
 .block_title {
-  color: var(--block_paragraph, #ff0070);
+  color: var(--block_title_color, #ff0070);
   font-family: var(--page-font-family, courier);
   font-size: inherit;
   font-weight: 700;
@@ -163,11 +163,11 @@
 }
 
 .red_title_article {
-  background: var(--block_with_paragraph, #ff0070);
+  background: var(--block_color, #ff0070);
 }
 
 .block_name {
-  color: var(--black_color);
+  color: var(--basic__color, #000028);
   font-family: var(--page-font-family, courier);
   font-size: 18px;
   font-weight: 700;
@@ -187,11 +187,11 @@
 }
 
 .text_with_link:focus-visible {
-  outline: 1px solid var(--text_color_visible, #f1b2ce);
+  outline: 1px solid currentColor;
 }
 
 .span_text_with_link {
-  text-shadow: 2px 2px 0 var(--link_shadow_color, #ff0070);
+  text-shadow: 2px 2px 0 var(--block_color, #ff0070);
 }
 
 .third_block_section {
@@ -225,13 +225,13 @@
 }
 
 .article_header {
-  color: var(--black_color);
+  color: var(--basic__color, #000028);
   font-family: var(--page-font-family, courier);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 23.4px;
-  background: var(--block_with_paragraph, #ff0070);
+  background: var(--block_color, #ff0070);
 }
 
 .fifth_block_section {
