@@ -27,7 +27,7 @@
     --pages-background-color: var(--pink_color4, #fff1f7);
     --basic__color: var(--black-color2, #353430);
     --theme-color-button_hover: var(--black-color3, #32312d66);
-    --page-background-image: url("../images/cover-image-light.png");
+    --background-image: url("../images/cover-image-light.png");
     --rec-decoration: hidden;
   }
 }
